@@ -684,6 +684,17 @@ export default function Home() {
           .nav { padding: 16px 24px; }
           .nav-links { gap: 20px; }
           .hero { padding: 100px 24px 60px; }
+          .hero-inner {
+            flex-direction: column-reverse;
+            gap: 36px;
+          }
+          .hero-image-wrap {
+            justify-content: flex-start;
+          }
+          .profile-image {
+            width: 120px !important;
+            height: 148px !important;
+          }
           .section { padding: 80px 24px; }
           .footer { padding: 24px; flex-direction: column; gap: 8px; }
           .project-row { grid-template-columns: 1fr; }
