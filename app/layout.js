@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
   display: "swap",
 });
 
-const BASE_URL = "https://tomiwara.dev"; // Replace with actual domain
+const BASE_URL = "https://devtomiwa.watchup.site"; // Replace with actual domain
 
 export const metadata = {
   // Core
@@ -60,14 +60,7 @@ export const metadata = {
     title: "Tomiwa Raphael — Fullstack Engineer & Blockchain Developer",
     description:
       "Building production systems that scale. Web, mobile, and blockchain infrastructure from Lagos, Nigeria.",
-    images: [
-      {
-        url: "/og-image.png", // Create a 1200x630 OG image
-        width: 1200,
-        height: 630,
-        alt: "Tomiwa Raphael — Fullstack Engineer",
-      },
-    ],
+    images: ['/opengraph-image'],
   },
 
   // Twitter / X
@@ -76,7 +69,7 @@ export const metadata = {
     title: "Tomiwa Raphael — Fullstack Engineer & Blockchain Developer",
     description:
       "Building production systems that scale. Web, mobile, and blockchain infrastructure from Lagos, Nigeria.",
-    images: ["/og-image.png"],
+    images: ['/twitter-image'],
     creator: "@devtomiwa", // Replace with actual handle
   },
 
