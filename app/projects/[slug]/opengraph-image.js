@@ -21,6 +21,36 @@ const projects = {
     description: 'Anonymous poetry platform with 12k+ published poems',
     tech: ['Next.js', 'MongoDB', 'Tailwind'],
   },
+  'worldstreetgold': {
+    name: 'WorldStreetGold',
+    description: 'Advanced trading platform with multi-chain blockchain integration',
+    tech: ['Hyperliquid', 'Node.js', 'Flask', 'Next.js'],
+  },
+  'creative-learning-system': {
+    name: 'Creative Learning System',
+    description: 'Comprehensive school management system with testing and educational tools',
+    tech: ['Flask', 'Node.js', 'PostgreSQL'],
+  },
+  'keyperion-softphone': {
+    name: 'Keyperion Softphone',
+    description: 'Private company communication platform with secure calls and messaging',
+    tech: ['WebSocket', 'React Native', 'Node.js'],
+  },
+  'trollz-app': {
+    name: 'Trollz App',
+    description: 'E-commerce platform for the Nigerian market',
+    tech: ['React Native', 'Node.js', 'Flask'],
+  },
+  'watchup-server-agent': {
+    name: 'WatchUp Server Agent',
+    description: 'Lightweight server monitoring agent built with Go',
+    tech: ['Go', 'System Monitoring', 'API'],
+  },
+  'drop-rideshare': {
+    name: 'Drop Rideshare v1',
+    description: 'Mobile rideshare application with real-time location tracking',
+    tech: ['React Native', 'Node.js', 'Flask'],
+  },
   'blockcred': {
     name: 'BlockCred',
     description: 'Decentralized credential verification on Sui blockchain',

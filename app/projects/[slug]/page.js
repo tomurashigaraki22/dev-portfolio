@@ -16,6 +16,43 @@ const projects = {
     tech: ['Next.js', 'MongoDB', 'Tailwind'],
     url: 'https://verso.watchup.site',
   },
+  'worldstreetgold': {
+    name: 'WorldStreetGold',
+    description: 'Advanced trading platform with multi-chain blockchain integration',
+    longDescription: 'A sophisticated trading platform that integrates with multiple blockchain networks including Solana, Ethereum, and Arbitrum. Features real-time market data, advanced trading tools, and seamless multi-chain asset management.',
+    tech: ['Hyperliquid', 'Node.js', 'Flask', 'Next.js', 'Solana', 'Ethereum', 'Arbitrum'],
+    url: 'https://worldstreetgold.com',
+  },
+  'creative-learning-system': {
+    name: 'Creative Learning System',
+    description: 'Comprehensive school management system with testing and educational tools',
+    longDescription: 'A complete educational platform designed for modern schools, featuring comprehensive testing systems, interactive drills, student management, and advanced analytics. Built to enhance the learning experience for both students and educators.',
+    tech: ['Flask', 'Node.js', 'PostgreSQL'],
+  },
+  'keyperion-softphone': {
+    name: 'Keyperion Softphone',
+    description: 'Private company communication platform with secure calls and messaging',
+    longDescription: 'A secure communication platform designed for enterprise use, enabling private calls, messaging, and collaboration within organizations. Features end-to-end encryption and real-time communication capabilities.',
+    tech: ['WebSocket', 'React Native', 'Node.js', 'Flask'],
+  },
+  'trollz-app': {
+    name: 'Trollz App',
+    description: 'E-commerce platform for the Nigerian market',
+    longDescription: 'A comprehensive e-commerce solution tailored for the Nigerian market, featuring seamless shopping experiences, local payment integration, and optimized logistics for African commerce.',
+    tech: ['React Native', 'Node.js', 'Flask'],
+  },
+  'watchup-server-agent': {
+    name: 'WatchUp Server Agent',
+    description: 'Lightweight server monitoring agent built with Go',
+    longDescription: 'A high-performance server monitoring agent written in Go, designed to track system health, performance metrics, and report status to the WatchUp monitoring platform with minimal resource overhead.',
+    tech: ['Go', 'System Monitoring', 'API'],
+  },
+  'drop-rideshare': {
+    name: 'Drop Rideshare v1',
+    description: 'Mobile rideshare application with real-time location tracking',
+    longDescription: 'A full-featured rideshare application connecting drivers and passengers with real-time GPS tracking, route optimization, and secure payment processing. Built for the African mobility market.',
+    tech: ['React Native', 'Node.js', 'Flask'],
+  },
   'blockcred': {
     name: 'BlockCred',
     description: 'Decentralized credential verification on Sui blockchain',
